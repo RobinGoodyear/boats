@@ -81,7 +81,7 @@
             </nav>
         </div>
     </header>
-    <div class="flex flex-row w-full">
+    <div class="flex w-full bg-red-500">
    <?php // check if the post or page has a Featured Image assigned to it.
 if ( has_post_thumbnail() ) {
     the_post_thumbnail(get_the_ID(),'full',array( 'class' => 'flex object-cover object-bottom flex-grow min-w-full h-40 md:h-60'));
