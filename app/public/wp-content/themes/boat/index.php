@@ -110,7 +110,7 @@ if ( has_post_thumbnail() ) {
     </div>
     <footer class="mt-auto py-8 w-full bg-gradient-to-b to-blue-800 border-t border-grey from-blue-950">
         <div class="container flex flex-wrap gap-10 mx-auto text-amber-100">
-            <div class="px-4">
+            <!-- <div class="px-4">
                 <p>Marine Loisirs <br />Rte suisse <br />1297 Founex</p>
             </div>
             <div>
@@ -118,10 +118,14 @@ if ( has_post_thumbnail() ) {
                 Fax: 022 776 01 84<br>
                 info@marine-loisirs.ch
             </div>
-        </div>
-        <div class="container mx-auto">
+        </div> -->
+     <?php   if (is_active_sidebar('custom-sidebar')) {
+    dynamic_sidebar('custom-sidebar');
+}
+?>
+        <!-- <div class="container mx-auto">
             <p class="p-4 text-xs text-amber-100">Copyright 2024</p>
-        </div>
+        </div> -->
     </footer>
     <script src="js/menu.js"></script>
     <?php wp_footer(); ?>

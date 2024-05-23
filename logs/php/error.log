@@ -1,0 +1,138 @@
+[23-May-2024 11:38:48 UTC] PHP Fatal error:  Uncaught Error: Class "Marine_Contact_Info_Widget" not found in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/robin/sites/boats/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('Marine_Contact_...')
+#1 /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php(21): register_widget('Marine_Contact_...')
+#2 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): register_marine_contact_info_widget('')
+#3 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/robin/sites/boats/app/public/wp-includes/widgets.php(1862): do_action('widgets_init')
+#6 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/robin/sites/boats/app/public/wp-settings.php(695): do_action('init')
+#10 /home/robin/sites/boats/app/public/wp-config.php(103): require_once('/home/robin/sit...')
+#11 /home/robin/sites/boats/app/public/wp-load.php(50): require_once('/home/robin/sit...')
+#12 /home/robin/sites/boats/app/public/wp-admin/admin.php(34): require_once('/home/robin/sit...')
+#13 /home/robin/sites/boats/app/public/wp-admin/themes.php(10): require_once('/home/robin/sit...')
+#14 {main}
+  thrown in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[23-May-2024 11:42:10 UTC] PHP Warning:  include_once(/home/robin/sites/boats/app/public/wp-content/themes/boatboats/app/public/wp-content/themes/boat/widgets/marine-contact-info-widget.php): Failed to open stream: No such file or directory in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:42:10 UTC] PHP Warning:  include_once(): Failed opening '/home/robin/sites/boats/app/public/wp-content/themes/boatboats/app/public/wp-content/themes/boat/widgets/marine-contact-info-widget.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:42:10 UTC] PHP Fatal error:  Uncaught Error: Class "Marine_Contact_Info_Widget" not found in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/robin/sites/boats/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('Marine_Contact_...')
+#1 /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php(21): register_widget('Marine_Contact_...')
+#2 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): register_marine_contact_info_widget('')
+#3 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/robin/sites/boats/app/public/wp-includes/widgets.php(1862): do_action('widgets_init')
+#6 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/robin/sites/boats/app/public/wp-settings.php(695): do_action('init')
+#10 /home/robin/sites/boats/app/public/wp-config.php(103): require_once('/home/robin/sit...')
+#11 /home/robin/sites/boats/app/public/wp-load.php(50): require_once('/home/robin/sit...')
+#12 /home/robin/sites/boats/app/public/wp-admin/admin.php(34): require_once('/home/robin/sit...')
+#13 /home/robin/sites/boats/app/public/wp-admin/themes.php(10): require_once('/home/robin/sit...')
+#14 {main}
+  thrown in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[23-May-2024 11:42:10 UTC] PHP Warning:  include_once(/home/robin/sites/boats/app/public/wp-content/themes/boatboats/app/public/wp-content/themes/boat/widgets/marine-contact-info-widget.php): Failed to open stream: No such file or directory in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:42:10 UTC] PHP Warning:  include_once(): Failed opening '/home/robin/sites/boats/app/public/wp-content/themes/boatboats/app/public/wp-content/themes/boat/widgets/marine-contact-info-widget.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:42:10 UTC] PHP Fatal error:  Uncaught Error: Class "Marine_Contact_Info_Widget" not found in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/robin/sites/boats/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('Marine_Contact_...')
+#1 /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php(21): register_widget('Marine_Contact_...')
+#2 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): register_marine_contact_info_widget('')
+#3 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/robin/sites/boats/app/public/wp-includes/widgets.php(1862): do_action('widgets_init')
+#6 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/robin/sites/boats/app/public/wp-settings.php(695): do_action('init')
+#10 /home/robin/sites/boats/app/public/wp-config.php(103): require_once('/home/robin/sit...')
+#11 /home/robin/sites/boats/app/public/wp-load.php(50): require_once('/home/robin/sit...')
+#12 /home/robin/sites/boats/app/public/wp-blog-header.php(13): require_once('/home/robin/sit...')
+#13 /home/robin/sites/boats/app/public/index.php(17): require('/home/robin/sit...')
+#14 {main}
+  thrown in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[23-May-2024 11:42:43 UTC] PHP Warning:  include_once(/home/robin/sites/boats/app/public/wp-content/themes/boat/home/robin/sites/boats/app/public/wp-content/themes/boat/widgets/marine-contact-info-widget.php): Failed to open stream: No such file or directory in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:42:43 UTC] PHP Warning:  include_once(): Failed opening '/home/robin/sites/boats/app/public/wp-content/themes/boat/home/robin/sites/boats/app/public/wp-content/themes/boat/widgets/marine-contact-info-widget.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:42:43 UTC] PHP Fatal error:  Uncaught Error: Class "Marine_Contact_Info_Widget" not found in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/robin/sites/boats/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('Marine_Contact_...')
+#1 /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php(21): register_widget('Marine_Contact_...')
+#2 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): register_marine_contact_info_widget('')
+#3 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/robin/sites/boats/app/public/wp-includes/widgets.php(1862): do_action('widgets_init')
+#6 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/robin/sites/boats/app/public/wp-settings.php(695): do_action('init')
+#10 /home/robin/sites/boats/app/public/wp-config.php(103): require_once('/home/robin/sit...')
+#11 /home/robin/sites/boats/app/public/wp-load.php(50): require_once('/home/robin/sit...')
+#12 /home/robin/sites/boats/app/public/wp-admin/admin.php(34): require_once('/home/robin/sit...')
+#13 /home/robin/sites/boats/app/public/wp-admin/themes.php(10): require_once('/home/robin/sit...')
+#14 {main}
+  thrown in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[23-May-2024 11:42:43 UTC] PHP Warning:  include_once(/home/robin/sites/boats/app/public/wp-content/themes/boat/home/robin/sites/boats/app/public/wp-content/themes/boat/widgets/marine-contact-info-widget.php): Failed to open stream: No such file or directory in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:42:43 UTC] PHP Warning:  include_once(): Failed opening '/home/robin/sites/boats/app/public/wp-content/themes/boat/home/robin/sites/boats/app/public/wp-content/themes/boat/widgets/marine-contact-info-widget.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:42:43 UTC] PHP Fatal error:  Uncaught Error: Class "Marine_Contact_Info_Widget" not found in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/robin/sites/boats/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('Marine_Contact_...')
+#1 /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php(21): register_widget('Marine_Contact_...')
+#2 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): register_marine_contact_info_widget('')
+#3 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/robin/sites/boats/app/public/wp-includes/widgets.php(1862): do_action('widgets_init')
+#6 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/robin/sites/boats/app/public/wp-settings.php(695): do_action('init')
+#10 /home/robin/sites/boats/app/public/wp-config.php(103): require_once('/home/robin/sit...')
+#11 /home/robin/sites/boats/app/public/wp-load.php(50): require_once('/home/robin/sit...')
+#12 /home/robin/sites/boats/app/public/wp-blog-header.php(13): require_once('/home/robin/sit...')
+#13 /home/robin/sites/boats/app/public/index.php(17): require('/home/robin/sit...')
+#14 {main}
+  thrown in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[23-May-2024 11:43:30 UTC] PHP Warning:  include_once(/home/robin/sites/boats/app/public/wp-content/themes/boatwidgets/marine-contact-info-widget.php): Failed to open stream: No such file or directory in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:43:30 UTC] PHP Warning:  include_once(): Failed opening '/home/robin/sites/boats/app/public/wp-content/themes/boatwidgets/marine-contact-info-widget.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:43:30 UTC] PHP Fatal error:  Uncaught Error: Class "Marine_Contact_Info_Widget" not found in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/robin/sites/boats/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('Marine_Contact_...')
+#1 /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php(21): register_widget('Marine_Contact_...')
+#2 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): register_marine_contact_info_widget('')
+#3 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/robin/sites/boats/app/public/wp-includes/widgets.php(1862): do_action('widgets_init')
+#6 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/robin/sites/boats/app/public/wp-settings.php(695): do_action('init')
+#10 /home/robin/sites/boats/app/public/wp-config.php(103): require_once('/home/robin/sit...')
+#11 /home/robin/sites/boats/app/public/wp-load.php(50): require_once('/home/robin/sit...')
+#12 /home/robin/sites/boats/app/public/wp-admin/admin.php(34): require_once('/home/robin/sit...')
+#13 /home/robin/sites/boats/app/public/wp-admin/themes.php(10): require_once('/home/robin/sit...')
+#14 {main}
+  thrown in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[23-May-2024 11:43:30 UTC] PHP Warning:  include_once(/home/robin/sites/boats/app/public/wp-content/themes/boatwidgets/marine-contact-info-widget.php): Failed to open stream: No such file or directory in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:43:30 UTC] PHP Warning:  include_once(): Failed opening '/home/robin/sites/boats/app/public/wp-content/themes/boatwidgets/marine-contact-info-widget.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php on line 23
+[23-May-2024 11:43:30 UTC] PHP Fatal error:  Uncaught Error: Class "Marine_Contact_Info_Widget" not found in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/robin/sites/boats/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('Marine_Contact_...')
+#1 /home/robin/sites/boats/app/public/wp-content/themes/boat/functions.php(21): register_widget('Marine_Contact_...')
+#2 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): register_marine_contact_info_widget('')
+#3 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/robin/sites/boats/app/public/wp-includes/widgets.php(1862): do_action('widgets_init')
+#6 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /home/robin/sites/boats/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /home/robin/sites/boats/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/robin/sites/boats/app/public/wp-settings.php(695): do_action('init')
+#10 /home/robin/sites/boats/app/public/wp-config.php(103): require_once('/home/robin/sit...')
+#11 /home/robin/sites/boats/app/public/wp-load.php(50): require_once('/home/robin/sit...')
+#12 /home/robin/sites/boats/app/public/wp-blog-header.php(13): require_once('/home/robin/sit...')
+#13 /home/robin/sites/boats/app/public/index.php(17): require('/home/robin/sit...')
+#14 {main}
+  thrown in /home/robin/sites/boats/app/public/wp-includes/class-wp-widget-factory.php on line 62
